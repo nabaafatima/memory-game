@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(209, 190, 197);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color:rgb(191, 12, 155);
+    border: 5px solid deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#start{
+    width: 100px;
+    height: 100px;
+    border: 5px solid peachpuff;
+    border-radius: 20px;
+    background-color: palevioletred;
+}
+#start:active{
+    transform: scale(0.95);
+}
