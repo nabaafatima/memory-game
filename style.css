@@ -2,19 +2,17 @@
 body{
     background-color: rgb(209, 190, 197);
     margin: 0;
-    display: flex;
-    flex-direction: column;
     font-family: "Mynerve";
+    overflow: hidden;
 }
 #main{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color:rgb(191, 12, 155);
     border: 5px solid deeppink;
     display: flex;
     flex-direction: column;
     font-family:"Mynerve";
-    position: absolute;
 }
 #start{
     width: 100px;
@@ -22,7 +20,16 @@ body{
     border: 5px solid peachpuff;
     border-radius: 20px;
     background-color: palevioletred;
+    position: absolute;
+    left: 700px;
+    top: 130px;
 }
 #start:active{
     transform: scale(0.95);
+}
+#text{
+    left: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
