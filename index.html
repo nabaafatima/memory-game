@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Sequence Game</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        <div id="game-header">
-            <div id="text">
-                <h1>Listen and watch carefully</h1>
-                <h2>Remember the order</h2>
-                <h3>Press accordingly</h3>
-            </div>
-            <button id="start">Start</button>
-        </div>
-        <div id="body">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-        </div>
+
+    <h1>Sequence Memory</h1>
+    <div id="score-board">Score: 0 | High Score: 0</div>
+    <div class="grid">
+        <div class="box box-0" style="color: #ff4d4d;" data-index="0"></div>
+        <div class="box box-1" style="color: #4da6ff;" data-index="1"></div>
+        <div class="box box-2" style="color: #5cd65c;" data-index="2"></div>
+        <div class="box box-3" style="color: #ffb31a;" data-index="3"></div>
+        <div class="box box-4" style="color: #cc66ff;" data-index="4"></div>
+        <div class="box box-5" style="color: #ff66cc;" data-index="5"></div>
     </div>
-    <script src="script.js" defer></script>
+    <button id="start-btn">Start Game</button>
+    <script src="script.js"></script>
 </body>
 </html>
